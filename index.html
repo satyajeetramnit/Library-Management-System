@@ -1,54 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Book Club</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav class="navigation-bar">
-        <div class="page-title">
-            Book club
-        </div>
+    <head>
+        <meta charset="UTF-8">
+        <title>Library management System</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    </head>
+    <body style="background-color: #232239; color:white;">
+        <nav class="navigation-bar">
+            <div class="page-title text-dark fw-bold p-2 fs-6">
+                Library Management System
+            </div>
 
-        <div class="logged-in-user-input">
-            <label>
-                <input id="logged-user" type="text"/>
-            </label>
-            <button onclick="changeLoggedInUser()">Log in</button>
-        </div>
-    </nav>
+            <div class="logged-in-user-input ">
+                <label>
+                    <input id="logged-user" class="form-control " type="text"/>
+                </label>
+                <button onclick="changeLoggedInUser()" class="btn btn-sm btn-success">Log in</button>
+            </div>
+        </nav>
 
-    <section class="content-section">
-        <p id="logged-in-user-name">
+        <section class="content-section">
+            <p id="logged-in-user-name">
 
-        </p>
-        <table class="book-table" id="info-table">
-            <thead>
-            <tr>
-                <th>
-                    Id
-                </th>
-                <th>
-                    Title
-                </th>
-                <th>
-                    Author
-                </th>
-                <th>
-                    Lender
-                </th>
-                <th>
-                    Borrower
-                </th>
-                <th>
-                    Action
-                </th>
-            </tr>
-            </thead>
-        </table>
-    </section>
-
-    <script type="text/javascript" src="library.js"></script>
-</body>
+            </p>
+            <table class="book-table border-light border-1" id="info-table">
+                <thead>
+                <tr>
+                    <th>
+                        Id
+                    </th>
+                    <th>
+                        Title
+                    </th>
+                    <th>
+                        Author
+                    </th>
+                    <th>
+                        Lender
+                    </th>
+                    <th>
+                        Borrower
+                    </th>
+                    <th>
+                        Action
+                    </th>
+                </tr>
+                </thead>
+            </table>
+        </section>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="library.js"></script>
+    </body>
 </html>

@@ -15,14 +15,12 @@ The database looks something like this (The actions column will have buttons app
 
 Here is what the completed page looks for the logged out and logged in user
 
-![Screenshot 2022-03-02 at 10 11 28 PM](https://user-images.githubusercontent.com/10229595/156407182-1273780e-fae0-48d3-94d4-84157f7de0a7.png)
+![Screenshot](https://imgur.com/KyJQiqy.png)
 
 
-![Screenshot 2022-03-02 at 10 11 39 PM](https://user-images.githubusercontent.com/10229595/156407216-46476c81-1205-4271-b618-29ad7042ae9a.png)
+![Screenshot](https://imgur.com/yvJPDga.png)
 
 
-
-For purposes of this exercise, we have provided the basic HTML and CSS styles for you. You only need to write the Javascript code.
 
 The final completed database should have the following functionalities:
 
