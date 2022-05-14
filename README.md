@@ -15,10 +15,10 @@ The database looks something like this (The actions column will have buttons app
 
 Here is what the completed page looks for the logged out and logged in user
 
-![Screenshot](https://imgur.com/KyJQiqy.png)
+![Screenshot Original](https://imgur.com/KyJQiqy.png)
 
 
-![Screenshot](https://imgur.com/yvJPDga.png)
+![Screenshot Login](https://imgur.com/yvJPDga.png)
 
 
 
